@@ -156,12 +156,12 @@
   },
   "430031": {
     "OriginalText": "配置済みリスト",
-    "Text": "Deployed List",
+    "Text": "Deployed",
     "Enabled": true
   },
   "430032": {
     "OriginalText": "所有リスト",
-    "Text": "Owner List",
+    "Text": "Facilities",
     "Enabled": true
   },
   "430033": {
@@ -201,7 +201,7 @@
   },
   "430040": {
     "OriginalText": "ソート切替",
-    "Text": "Sort Switching",
+    "Text": "Switch Sorting",
     "Enabled": true
   },
   "430041": {
@@ -231,7 +231,7 @@
   },
   "430046": {
     "OriginalText": "設置完了",
-    "Text": "Install Complete",
+    "Text": "Finish",
     "Enabled": true
   },
   "430047": {
@@ -266,7 +266,7 @@
   },
   "430053": {
     "OriginalText": "すべて自動選択",
-    "Text": "All Auto Select",
+    "Text": "Auto Select All",
     "Enabled": true
   },
   "430054": {
