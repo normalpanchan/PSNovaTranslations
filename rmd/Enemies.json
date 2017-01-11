@@ -271,7 +271,7 @@
   },
   "182330": {
     "OriginalText": "バンサ・ブライネス",
-    "Text": "Banther Braines",
+    "Text": "Banther Braynes",
     "Enabled": true
   },
   "182410": {
@@ -771,8 +771,8 @@
   },
   "184560": {
     "OriginalText": "頭角",
-    "Text": "",
-    "Enabled": false
+    "Text": "Stand Out",
+    "Enabled": true
   },
   "184570": {
     "OriginalText": "腰角",
@@ -1061,13 +1061,13 @@
   },
   "185510": {
     "OriginalText": "レイヴフース",
-    "Text": "",
-    "Enabled": false
+    "Text": "Rave Fus",
+    "Enabled": true
   },
   "185520": {
     "OriginalText": "レイヴヒュフテ",
-    "Text": "",
-    "Enabled": false
+    "Text": "Rave Hufte",
+    "Enabled": true
   },
   "185530": {
     "OriginalText": "レイヴガイスト",
@@ -1086,7 +1086,7 @@
   },
   "185550": {
     "OriginalText": "ネメスヒュフテ",
-    "Text": "Nemes Bufte",
+    "Text": "Nemes Hufte",
     "Enabled": true
   },
   "185560": {
@@ -1156,8 +1156,8 @@
   },
   "189009": {
     "OriginalText": "２連機関砲",
-    "Text": "",
-    "Enabled": false
+    "Text": "Twin Guns",
+    "Enabled": true
   },
   "189010": {
     "OriginalText": "伝甲:腹",
@@ -1181,13 +1181,13 @@
   },
   "189014": {
     "OriginalText": "クラッカー発射口",
-    "Text": "",
-    "Enabled": false
+    "Text": "Cracker Launch Port",
+    "Enabled": true
   },
   "189015": {
     "OriginalText": "バーナー",
-    "Text": "",
-    "Enabled": false
+    "Text": "Burner",
+    "Enabled": true
   },
   "189016": {
     "OriginalText": "タンク",
@@ -1211,308 +1211,308 @@
   },
   "189020": {
     "OriginalText": "虚の骸Ｇダーク・ラグネ",
-    "Text": "",
-    "Enabled": false
+    "Text": "Hollow Shell: G-Dark Ragne",
+    "Enabled": true
   },
   "189021": {
     "OriginalText": "虚の骸Ｇダーク・アグラニ",
-    "Text": "",
-    "Enabled": false
+    "Text": "Hollow Shell: G-Dark Agrani",
+    "Enabled": true
   },
   "189022": {
     "OriginalText": "沌の骸Ｇウォルガーダ",
-    "Text": "",
-    "Enabled": false
+    "Text": "Primal Shell: G-Wolgahda",
+    "Enabled": true
   },
   "189023": {
     "OriginalText": "沌の骸Ｇアロナガーダ",
-    "Text": "",
-    "Enabled": false
+    "Text": "Primal Shell: G-Alonagahda",
+    "Enabled": true
   },
   "189024": {
     "OriginalText": "沌の骸Ｇキュクロナーダ",
-    "Text": "",
-    "Enabled": false
+    "Text": "Primal Shell: G-Kuklonahda",
+    "Enabled": true
   },
   "189025": {
     "OriginalText": "沌の骸Ｇパイクロナーダ",
-    "Text": "",
-    "Enabled": false
+    "Text": "Primal Shell: G-Piklonahda",
+    "Enabled": true
   },
   "189026": {
     "OriginalText": "磁晶模コラル・ドラゴン",
-    "Text": "",
-    "Enabled": false
+    "Text": "Magnetic Crystal: Coral Dragon",
+    "Enabled": true
   },
   "189027": {
     "OriginalText": "磁晶模ディアマ・ドラール",
-    "Text": "",
-    "Enabled": false
+    "Text": "Magnetic Crystal: Diama Dragon",
+    "Enabled": true
   },
   "189028": {
     "OriginalText": "暴君グルナバンサー",
-    "Text": "",
-    "Enabled": false
+    "Text": "Tyrant: Gluna Banther",
+    "Enabled": true
   },
   "189029": {
     "OriginalText": "暴君ジャッドバンサー",
-    "Text": "",
-    "Enabled": false
+    "Text": "Tyrant: Jhad Banther",
+    "Enabled": true
   },
   "189030": {
     "OriginalText": "暴君バンサ・ブライネス",
-    "Text": "",
-    "Enabled": false
+    "Text": "Tyrant: Banther Braines",
+    "Enabled": true
   },
   "189031": {
     "OriginalText": "伝悪鬼バレダイナス",
-    "Text": "",
-    "Enabled": false
+    "Text": "Legendary Demon: Vale-Dynas",
+    "Enabled": true
   },
   "189032": {
     "OriginalText": "伝悪鬼ラーバレダイナス",
-    "Text": "",
-    "Enabled": false
+    "Text": "Legendary Demon: Lar Vale-Dynas",
+    "Enabled": true
   },
   "189033": {
     "OriginalText": "伝悪鬼マーバレダイナス",
-    "Text": "",
-    "Enabled": false
+    "Text": "Legendary Demon: Mar Vale-Dynas",
+    "Enabled": true
   },
   "189034": {
     "OriginalText": "伝悪鬼ヴィバレダイナス",
-    "Text": "",
-    "Enabled": false
+    "Text": "Legendary Demon: Vi Vale-Dynas",
+    "Enabled": true
   },
   "189035": {
     "OriginalText": "伝悪鬼ダイナス・タングス",
-    "Text": "",
-    "Enabled": false
+    "Text": "Legendary Demon: Dynas Tungs",
+    "Enabled": true
   },
   "189036": {
     "OriginalText": "伝悪鬼シードギオス",
-    "Text": "",
-    "Enabled": false
+    "Text": "Legendary Demon: Xie Dogios",
+    "Enabled": true
   },
   "189037": {
     "OriginalText": "伝悪鬼フォードギオス",
-    "Text": "",
-    "Enabled": false
+    "Text": "Legendary Demon: Pho Dogios",
+    "Enabled": true
   },
   "189038": {
     "OriginalText": "伝悪鬼ヴァッドギオス",
-    "Text": "",
-    "Enabled": false
+    "Text": "Legendary Demon: Valle Dogios",
+    "Enabled": true
   },
   "189039": {
     "OriginalText": "伝悪鬼エアドギオス",
-    "Text": "",
-    "Enabled": false
+    "Text": "Legendary Demon: Air Dogios",
+    "Enabled": true
   },
   "189040": {
     "OriginalText": "伝悪鬼ドギオス・ルフレ",
-    "Text": "",
-    "Enabled": false
+    "Text": "Legendary Demon: Dogios Reflet",
+    "Enabled": true
   },
   "189041": {
     "OriginalText": "伝悪鬼トルリンプ",
-    "Text": "",
-    "Enabled": false
+    "Text": "Legendary Demon: Torrimp",
+    "Enabled": true
   },
   "189042": {
     "OriginalText": "伝悪鬼ロウトルリンプ",
-    "Text": "",
-    "Enabled": false
+    "Text": "Legendary Demon: Rol Torrimp",
+    "Enabled": true
   },
   "189043": {
     "OriginalText": "伝悪鬼ポルトルリンプ",
-    "Text": "",
-    "Enabled": false
+    "Text": "Legendary Demon: Pol Torrimp",
+    "Enabled": true
   },
   "189044": {
     "OriginalText": "伝悪鬼トルリンプ・ゴウル",
-    "Text": "",
-    "Enabled": false
+    "Text": "Legendary Demon: Torrimp Gorr",
+    "Enabled": true
   },
   "189045": {
     "OriginalText": "怠帝エデルクリトロ",
-    "Text": "",
-    "Enabled": false
+    "Text": "Laziness King: Eder Critter",
+    "Enabled": true
   },
   "189046": {
     "OriginalText": "怠帝スマラクリトロ",
-    "Text": "",
-    "Enabled": false
+    "Text": "Laziness King: Smar Critter",
+    "Enabled": true
   },
   "189047": {
     "OriginalText": "怠帝オーニクリトロ",
-    "Text": "",
-    "Enabled": false
+    "Text": "Laziness King: Oni Critter",
+    "Enabled": true
   },
   "189048": {
     "OriginalText": "怠帝クリトロ・テュルレ",
-    "Text": "",
-    "Enabled": false
+    "Text": "Laziness King: Critter Ture",
+    "Enabled": true
   },
   "189049": {
     "OriginalText": "兇星エレマンデル",
-    "Text": "",
-    "Enabled": false
+    "Text": "Evil Mark: Err Mandel",
+    "Enabled": true
   },
   "189050": {
     "OriginalText": "兇星テッラマンデル",
-    "Text": "",
-    "Enabled": false
+    "Text": "Evil Mark: Terra Mandel",
+    "Enabled": true
   },
   "189051": {
     "OriginalText": "兇星イーグマンデル",
-    "Text": "",
-    "Enabled": false
+    "Text": "Evil Mark: Eater Mandel",
+    "Enabled": true
   },
   "189052": {
     "OriginalText": "兇星マンデル・ナート",
-    "Text": "",
-    "Enabled": false
+    "Text": "Evil Mark: Mandel Inert",
+    "Enabled": true
   },
   "189053": {
     "OriginalText": "兇星エクセージＴ",
-    "Text": "",
-    "Enabled": false
+    "Text": "Evil Mark: Equsage T",
+    "Enabled": true
   },
   "189054": {
     "OriginalText": "兇星レ・エクセージＴ",
-    "Text": "",
-    "Enabled": false
+    "Text": "Evil Mark: Le Equsage T",
+    "Enabled": true
   },
   "189055": {
     "OriginalText": "兇星エクセージＴ・ネス",
-    "Text": "",
-    "Enabled": false
+    "Text": "Evil Mark: Equsage T Ness",
+    "Enabled": true
   },
   "189056": {
     "OriginalText": "兇星ミステルン",
-    "Text": "",
-    "Enabled": false
+    "Text": "Evil Mark: Mysteron",
+    "Enabled": true
   },
   "189057": {
     "OriginalText": "兇星アガミステルン",
-    "Text": "",
-    "Enabled": false
+    "Text": "Evil Mark: Aga Mysteron",
+    "Enabled": true
   },
   "189058": {
     "OriginalText": "兇星ラピミステルン",
-    "Text": "",
-    "Enabled": false
+    "Text": "Evil Mark: Rap Mysteron",
+    "Enabled": true
   },
   "189059": {
     "OriginalText": "兇星ミステルン・オーロ",
-    "Text": "",
-    "Enabled": false
+    "Text": "Evil Mark: Mysteron Oro",
+    "Enabled": true
   },
   "189060": {
     "OriginalText": "伝悪鬼シルブカーネベア",
-    "Text": "",
-    "Enabled": false
+    "Text": "Legendary Fiend: Silvcarnne Bear",
+    "Enabled": true
   },
   "189061": {
     "OriginalText": "伝悪鬼レゾルカーネベア",
-    "Text": "",
-    "Enabled": false
+    "Text": "Legendary Fiend: Resolcarnne Bear",
+    "Enabled": true
   },
   "189062": {
     "OriginalText": "伝悪鬼オラルカーネベア",
-    "Text": "",
-    "Enabled": false
+    "Text": "Legendary Fiend: Oralecarnne Bear",
+    "Enabled": true
   },
   "189063": {
     "OriginalText": "伝悪鬼モストカーネベア",
-    "Text": "",
-    "Enabled": false
+    "Text": "Legendary Fiend: Mostcarnne Bear",
+    "Enabled": true
   },
   "189064": {
     "OriginalText": "伝悪鬼カーネベア・ゴルヴァ",
-    "Text": "",
-    "Enabled": false
+    "Text": "Legendary Fiend: Carnnebear Gorva",
+    "Enabled": true
   },
   "189065": {
     "OriginalText": "伝悪鬼アルレイバンサー",
-    "Text": "",
-    "Enabled": false
+    "Text": "Legendary Fiend: Arlay Banther",
+    "Enabled": true
   },
   "189066": {
     "OriginalText": "伝悪鬼ゾンレイバンサー",
-    "Text": "",
-    "Enabled": false
+    "Text": "Legendary Fiend: Dzongray Banther",
+    "Enabled": true
   },
   "189067": {
     "OriginalText": "伝悪鬼ナールレイバンサー",
-    "Text": "",
-    "Enabled": false
+    "Text": "Legendary Fiend: Nalray Banther",
+    "Enabled": true
   },
   "189068": {
     "OriginalText": "伝悪鬼ファラレイバンサー",
-    "Text": "",
-    "Enabled": false
+    "Text": "Legendary Fiend: Farahray Banther",
+    "Enabled": true
   },
   "189069": {
     "OriginalText": "伝悪鬼レイバンサ・オクシ",
-    "Text": "",
-    "Enabled": false
+    "Text": "Legendary Fiend: Ray Banther Occi",
+    "Enabled": true
   },
   "189070": {
     "OriginalText": "猛銃ディートアス",
-    "Text": "",
-    "Enabled": false
+    "Text": "Ferocious Gun: Ditoas",
+    "Enabled": true
   },
   "189071": {
     "OriginalText": "猛銃テュルトアス",
-    "Text": "",
-    "Enabled": false
+    "Text": "Ferocious Gun: Tulletoas",
+    "Enabled": true
   },
   "189072": {
     "OriginalText": "猛銃マグネトアス",
-    "Text": "",
-    "Enabled": false
+    "Text": "Ferocious Gun: Magnetoas",
+    "Enabled": true
   },
   "189073": {
     "OriginalText": "猛銃トアス・ヒュブオン",
-    "Text": "",
-    "Enabled": false
+    "Text": "Ferocious Gun: Toas Biubon",
+    "Enabled": true
   },
   "189074": {
     "OriginalText": "狂戦棘ゴルドス",
-    "Text": "",
-    "Enabled": false
+    "Text": "Berserk Thorn: Gordes",
+    "Enabled": true
   },
   "189075": {
     "OriginalText": "狂戦棘ディゴルドス",
-    "Text": "",
-    "Enabled": false
+    "Text": "Berserk Thorn: Digordes",
+    "Enabled": true
   },
   "189076": {
     "OriginalText": "狂戦棘オルゴルドス",
-    "Text": "",
-    "Enabled": false
+    "Text": "Berserk Thorn: Orgordes",
+    "Enabled": true
   },
   "189077": {
     "OriginalText": "狂戦棘ゴルドス・ビガオ",
-    "Text": "",
-    "Enabled": false
+    "Text": "Berserk Thorn: Gordes Bigaoh",
+    "Enabled": true
   },
   "189078": {
     "OriginalText": "砲凰ファンアフォル",
-    "Text": "",
-    "Enabled": false
+    "Text": "Armed Phoenix: Fan'aphol",
+    "Enabled": true
   },
   "189079": {
     "OriginalText": "砲凰ウィルアフォル",
-    "Text": "",
-    "Enabled": false
+    "Text": "Armed Phoenix: Viluaphol",
+    "Enabled": true
   },
   "189080": {
     "OriginalText": "砲凰アフォル・フェイズ",
-    "Text": "",
-    "Enabled": false
+    "Text": "Armed Phoenix: Aphol Phase",
+    "Enabled": true
   },
   "189081": {
     "OriginalText": "クラーダ",
@@ -1536,33 +1536,33 @@
   },
   "189085": {
     "OriginalText": "？？？",
-    "Text": "",
-    "Enabled": false
+    "Text": "???",
+    "Enabled": true
   },
   "189086": {
     "OriginalText": "追撃のＧアロナガーダ",
-    "Text": "",
-    "Enabled": false
+    "Text": "G-Alonagahda Pursuit",
+    "Enabled": true
   },
   "189087": {
     "OriginalText": "メガ・ロザード",
-    "Text": "",
-    "Enabled": false
+    "Text": "Mega Rozad",
+    "Enabled": true
   },
   "189088": {
     "OriginalText": "メガ・ウロザード",
-    "Text": "",
-    "Enabled": false
+    "Text": "Mega Pa Rozad",
+    "Enabled": true
   },
   "189089": {
     "OriginalText": "メガ・クロザード",
-    "Text": "",
-    "Enabled": false
+    "Text": "Mega Gu Rozad",
+    "Enabled": true
   },
   "189090": {
     "OriginalText": "メガ・スロザード",
-    "Text": "",
-    "Enabled": false
+    "Text": "Mega Su Rozad",
+    "Enabled": true
   },
   "189091": {
     "OriginalText": "ヴィヴリュードＳ型",

@@ -40,10 +40,10 @@ import sys
 def LoadEnemies(fname):
 #{
    ret = {
-      "ダーカー": "Darker",
-      "獣":       "Monster",
-      "巨大獣":   "Giant Monster",
-      "鳥":       "Bird"
+      "ダーカー":   "Darker",
+      "獣":      "Monster",
+      "巨大獣":    "Giant Monster",
+      "鳥":      "Bird"
    }
 
    j = json.load(open(fname, "r"))
@@ -86,49 +86,41 @@ def UpToDateItem(ln, item):
 #}
 
 ##
-## UpToDate
-##
-def UpToDate(ln, name, item):
-#{
-   if ln.find("\"Enabled\"") != -1 or \
-      ln.find(name) == -1 or \
-      not UpToDateItem(ln, item):
-      return False
-
-   return True
-#}
-
-##
 ## ProcFile
 ##
-def ProcFile(fp, out, enemies, items):
+def ProcFile(fp, out, enemies, items, delimiters):
 #{
    for ln in fp:
    #{
-      match = re.match("\\s+\"OriginalText\": \"(.+)の(.+)\",\r\n", ln)
-
-      if match is not None and         \
-         match.group(1) in enemies and \
-         match.group(2) in items:
+      for delim in delimiters:
       #{
-         ln1 = next(fp)
+         match = re.match("\\s+\"OriginalText\": \"(.+)" + delim + "(.+)\",\n", ln)
 
-         name = enemies[match.group(1)]
-         item = Item(items, match.group(2))
-
-         if not UpToDate(ln1, name, items[match.group(2)]):
+         if match is not None and         \
+            match.group(1) in enemies and \
+            match.group(2) in items:
          #{
-            ln = ln + \
-                 "    \"Text\": \"" + name + " " + item + "\",\r\n" + \
-                 "    \"Enabled\": true\r\n"
+            ln1 = next(fp)
 
-            ln2 = next(fp)
-            if ln2.find("\"Enabled\"") == -1: ln = ln + ln2
+            name = enemies[match.group(1)]
+            item = Item(items, match.group(2))
+
+            if not UpToDateItem(ln1, items[match.group(2)]):
+            #{
+               ln = ln + \
+                    "    \"Text\": \"" + name + " " + item + "\",\n" + \
+                    "    \"Enabled\": true\n"
+
+               ln2 = next(fp)
+               if ln2.find("\"Enabled\"") == -1: ln = ln + ln2
+            #}
+            else:
+               ln = ln + ln1
+            
+            break
          #}
-         else:
-            ln = ln + ln1
       #}
-
+      
       out.write(ln)
    #}
 #}
@@ -144,30 +136,38 @@ def Main():
       with open("rmd/Materials.json.1", "w", newline = "") as out:
          ProcFile(fp, out, enemies,
          {
-            "甲殻":   "Shell",
+            "甲殻":   "Carapace",
+            "甲羅":   "Shell",
             "目片":   "Eye Piece",
             "眼片":   "Eyeball",
-            "刃片":   "Blade",
+            "刃":    "Blade",
+            "刃片":   "Blades",
             "脚片":   "Leg",
             "鱗片":   "Scale",
+            "殻":    "Husk",
             "殻片":   "Husk Part",
-            "殻":     "Husk",
             "皮片":   "Pelt",
+            "爪":    "Claw",
             "爪片":   "Claw Part",
-            "爪":     "Claw",
-            "ヒレ片": "Fillet",
+            "ヒレ片":  "Fillet",
             "羽片":   "Wing",
             "針片":   "Stinger",
             "牙片":   "Fang",
             "盾片":   "Exoskeleton",
-            "骨":     "Bone",
-            "肉":     [ "Flesh", "Meat" ],
-            "ミルク": "Milk"
-         })
+            "骨":    "Bone",
+            "肉":    [ "Flesh", "Meat" ],
+            "ミルク":  "Milk",
+            "体煽":   "Trunk"
+         }, ["の"])
 
    with open("rmd/Enemy Cores.json", "r", newline = "") as fp:
       with open("rmd/Enemy Cores.json.1", "w", newline = "") as out:
-         ProcFile(fp, out, enemies, { "・コア": "Core" })
+         ProcFile(fp, out, enemies,
+         {
+            "コア":   "Core",
+            "超コア": "Super Core",
+            "極コア": "Climax Core"
+         }, ["の", "・"])
 #}
 
 
